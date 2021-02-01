@@ -1,0 +1,28 @@
+.article {
+	font-family: Arial;
+	font-size: 16px
+}
+
+.title {
+	text-align: center;
+}
+
+#y18 {
+	color: green;
+}
+
+#y19 {
+	color: blue;
+}
+
+#y20 {
+	color: red;
+}
+
+#y22 {
+	color: red;
+}
+
+body {
+	background-color: lightgrey; 
+}
