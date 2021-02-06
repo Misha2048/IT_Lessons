@@ -1,0 +1,16 @@
+.gallery {
+  text-align: center;
+}
+
+.gallery img {
+  margin: 4px;
+}
+
+.footer {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.red-border {
+	border: 4px solid red;
+}
