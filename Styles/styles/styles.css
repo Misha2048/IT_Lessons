@@ -26,3 +26,9 @@
 body {
 	background-color: lightgrey; 
 }
+
+h1, h2 {
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
