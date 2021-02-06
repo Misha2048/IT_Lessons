@@ -1,0 +1,39 @@
+body {
+	font-size: 28px;
+}
+
+p {
+	background: lightgreen;
+	padding: 4px;
+	border: 2px solid gray;
+	margin: 10px;
+}
+
+span {
+	background: lightblue;
+	border: 1px solid black;
+}
+
+p.container {
+	position: relative;
+}
+
+p.second-block {
+	width: 600px;
+	position: absolute;
+	left: 150px;
+	top: 600px;
+	z-index: 10;
+}
+
+p.positioned {
+	position: relative;
+	left: 15px;
+	top: 30px;
+	background-color: yellow;
+}
+
+img.positioned {
+	position: absolute;
+	top: 5px;
+}
