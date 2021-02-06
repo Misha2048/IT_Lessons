@@ -1,0 +1,9 @@
+body {
+	font-size: 24px;
+}
+
+p {
+	background-color: #EEEEEE;
+	display: inline-block;
+	width: 200px;
+}
