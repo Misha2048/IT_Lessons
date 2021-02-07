@@ -1,0 +1,26 @@
+body {
+  font-size: 16pt;
+  padding: 8px;
+}
+
+input, select {
+  font-size: 20px;
+  margin: 8px;
+  padding: 4px;
+}
+
+button {
+  font-size: 14pt;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+
+p {
+  margin-top: 10px;
+  padding: 2px;
+  font-weight: bold;
+  font-size: 18pt;
+  color: #555555;
+  border-bottom: 1px solid gray;
+}
