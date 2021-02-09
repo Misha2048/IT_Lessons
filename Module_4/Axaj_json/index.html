@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер курсів</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/jquery-3.3.1.js"></script>
+</head>
+<body>
+  <label for="sum">Сума</label>
+  <input type="text" name="sum" id="sum" placeholder="Сума в валюті" size="10">
+
+  <label for="currency">Валюта</label>
+  <select name="currency" id="currency">
+    <option value="EUR">&euro;</option>
+    <option value="USD">$</option>
+  </select>
+
+  <label for="result">Сума в гривні:</label>
+  <input type="text" name="result" id="result" size="10" readonly="true"/>
+
+  <button type="button" id="calculate">Рахувати</button>
+
+  <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
