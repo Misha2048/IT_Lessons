@@ -51,14 +51,7 @@ $(document).ready(function() {
 		//if data validated
 		if(!error) {
 			data_block.empty();
-			data_block.append("Data validated:<br/>");
-			data_block.append("Username: " + username + "<br/>");
-			data_block.append("Age: " + age + "<br/>");
-			data_block.append("Password " + password + "<br/>");
-			data_block.append("Gender: " + gender + "<br/>");
-			data_block.append("Remember me: " + remme.is(":checked") + "<br/>");
-			data_block.append("Town: " + town + "<br/>");
-			data_block.append("Message " + message + "<br/>");
+			data_block.append("Data validated:<br/>Username: " + username + "<br/>Age: " + age + "<br/>Password " + password + "<br/>Gender: " + gender + "<br/>Remember me: " + remme.is(":checked") + "<br/>Town: " + town + "<br/>Message: " + message + "<br/>");
 		}
 
 	});
